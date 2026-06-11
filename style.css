@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: coral;
+}
+.Container{
+    background-color: rgb(255, 145, 72);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+form select,input,button{
+    width:100%;
+}    

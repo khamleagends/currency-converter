@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <script type ="module" src="script.js" defer></script>
+    
+</head>
+<body>
+    <div class="Container">
+        <h2> Currency Convertor</h2>
+        <form>
+            <input type="number" placeholder="Enter amount" name="amount enteres">
+            <div class="from">
+                <p>From:</p>
+                <img id ="flag1"src="https://flagsapi.com/US/flat/64.png">
+                <select class="Currency" id="from">
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                </select>
+                <p>To:</p>
+                <img id="flag2" src="https://flagsapi.com/IN/flat/64.png">
+                <select class="Currency" id="to">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button onclick="">Convert</button>
+        </form>
+    </div>
+    
+</body>
+</html>
