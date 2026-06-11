@@ -11,25 +11,23 @@
 <body>
     <div class="Container">
         <h2> Currency Convertor</h2>
-        <form>
-            <input type="number" placeholder="Enter amount" name="amount enteres">
+       <form>
+            <input id="amount" type="number" placeholder="Enter amount" value="1">
             <div class="from">
                 <p>From:</p>
-                <img id ="flag1"src="https://flagsapi.com/US/flat/64.png">
+                <img id="flag1" src="https://flagsapi.com/US/flat/64.png">
                 <select class="Currency" id="from">
-                    <option value="USD">USD</option>
-                    <option value="INR">INR</option>
-                    <option value="EUR">EUR</option>
-                </select>
+                    </select>
+                
                 <p>To:</p>
                 <img id="flag2" src="https://flagsapi.com/IN/flat/64.png">
                 <select class="Currency" id="to">
-                    <option value="INR">INR</option>
-                    <option value="USD">USD</option>
-                    <option value="EUR">EUR</option>
-                </select>
+                    </select>
             </div>
-            <button onclick="">Convert</button>
+            
+            <div class="msg" style="margin-top: 15px; font-weight: bold; text-align: center;">1 USD = 80 INR</div>
+            
+            <button id="convertBtn" style="margin-top: 15px;">Convert</button>
         </form>
     </div>
     
